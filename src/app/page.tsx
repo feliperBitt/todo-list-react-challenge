@@ -54,6 +54,7 @@ export default function Home() {
 		}), 1000);
 	}, []);
 
+	// TODO Styling, Memo, exclude if complete in 30 s and dark mode
 	return (
 		<main>
 			<div id='titleContainer' style={{display: 'flex', justifyContent: 'center', margin: '24px 0px'}}>
